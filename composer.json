@@ -1,0 +1,22 @@
+{
+  "name": "wesleywmd/modulus-project",
+  "type": "project",
+  "description": "The Modulus Framework.",
+  "license": "MIT",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "source",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
