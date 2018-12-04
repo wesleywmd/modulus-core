@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "wesleywmd/modulus-project": {
+      "dev-master": {
+        "name": "wesleywmd/modulus-project",
+        "source": {
+          "type": "git",
+          "url": "git@github.com:wesleywmd/modulus-project.git"
+        },
+        "type": "project",
+        "version": "dev-master"
+      }
+    }
+  }
+}
