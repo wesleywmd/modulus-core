@@ -1,1 +1,1 @@
-# modulus-project
+# modulus-core
