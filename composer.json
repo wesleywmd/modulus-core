@@ -1,5 +1,5 @@
 {
-  "name": "wesleywmd/modulus-project",
+  "name": "wesleywmd/modulus-core",
   "type": "project",
   "description": "The Modulus Framework.",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "Modulus\\": "src/"
     }
   },
   "minimum-stability": "dev",
