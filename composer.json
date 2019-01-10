@@ -1,6 +1,6 @@
 {
   "name": "wesleywmd/modulus-core",
-  "type": "project",
+  "type": "modulus-module",
   "description": "The Modulus Framework.",
   "license": "MIT",
   "require": {
