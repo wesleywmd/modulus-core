@@ -1,9 +1,9 @@
 <?php
 namespace Modulus\Console;
 
-use Modulus\Components\Style\IoFactory;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Wesleywmd\Element\ConsoleStyle\IoFactory;
 
 class BaseService implements ServiceInterface
 {
