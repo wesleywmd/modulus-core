@@ -1,16 +1,14 @@
 {
   "name": "wesleywmd/modulus-core",
   "type": "modulus-module",
-  "description": "The Modulus Framework.",
+  "description": "The Modulus Framework Core Module.",
   "license": "MIT",
   "require": {
-  },
-  "require-dev": {
-  },
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": "source",
-    "sort-packages": true
+    "symfony/config": "^4.2",
+    "symfony/console": "^4.2",
+    "symfony/dependency-injection": "^4.2",
+    "symfony/yaml": "^4.2",
+    "wesleywmd/element-console-style": "^1.0"
   },
   "autoload": {
     "psr-4": {
