@@ -18,7 +18,7 @@ class CommandDefinitionFactory
         "none" => InputOption::VALUE_NONE,
         "required" => InputOption::VALUE_REQUIRED,
         "optional" => InputOption::VALUE_OPTIONAL,
-        "array" => InputOption::VALUE_IS_ARRAY
+        "array" => InputOption::VALUE_REQUIRED | InputOption::VALUE_IS_ARRAY
     ];
 
     public function create($name, $command)
